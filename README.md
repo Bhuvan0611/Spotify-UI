@@ -6,6 +6,7 @@ A responsive **Spotify Web Player UI clone** built using **HTML5** and **CSS3**.
 
 ## 📁 Project Structure
 .
+
 ├── index.html # Main HTML structure
 
 ├── spotify.css # Styling using modern CSS3
@@ -17,13 +18,13 @@ A responsive **Spotify Web Player UI clone** built using **HTML5** and **CSS3**.
 ## ✨ Features
 
 - 🎵 Sidebar navigation (Home, Search, Your Library)
-- 
+
 - 📚 Playlist & podcast suggestion boxes
-- 
+  
 - 💿 Song cards and featured chart sections
-- 
+  
 - 📻 Static bottom music player UI with song info and controls
-- 
+  
 - 🎨 Responsive layout for smaller screens
 
 ---
@@ -31,11 +32,11 @@ A responsive **Spotify Web Player UI clone** built using **HTML5** and **CSS3**.
 ## 🛠️ Built With
 
 - HTML5
-- 
+  
 - CSS3
-- 
+  
 - Font Awesome (CDN)
-- 
+  
 - Google Fonts - *Montserrat*
 
 ---
@@ -46,11 +47,15 @@ A responsive **Spotify Web Player UI clone** built using **HTML5** and **CSS3**.
 |--------------|
 ![Screenshot (57)](https://github.com/user-attachments/assets/6f73d86e-368a-4ad1-918a-ec9d19c4c370)
 
+---
+
 ## 📦 Getting Started
 
 Open the project
 
 Just open index.html in any browser to view the app.
+
+---
 
 🙌 Acknowledgements
 

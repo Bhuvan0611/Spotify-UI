@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- logo image of spotify -->
+    <link rel=icon href="./asserts/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- linking my style sheet -->
+    <link rel="stylesheet" href="spotify.css">
+    <!-- setting font from google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!-- side bar menu code begins -->
+        <div class="side-bar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#"> Home </a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search </a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./asserts/library_icon.png" alt="">
+                        <a href="#">Your Library </a>
+                    </div>
+
+                    <div class="icons">
+
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">it's easy,we'll help you </p>
+                        <button class="badge"> Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- side bar menu code ends -->
+
+        <!-- Main content code begins -->
+        <div class="main-content">
+            <!-- sticky nav bar on the top -->
+            <div class="sticky-nav">
+                <div class="arrows">
+                    <img src="./asserts/backward_icon.png">
+                    <img src="./asserts/forward_icon.png" class="hide">
+                </div>
+                <div class="others">
+                    <button class="badge hide ">Explore Premium</button>
+                    <button class="badge dark-badge"><i class="fa-solid fa-circle-down"
+                            style="margin-right: 0.4rem;"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+            <h2 style="margin-bottom: 10px;">Currently Playing</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./asserts/love.png">
+                    <p class="card-title">Chinuku Taake...</p>
+                    <p class="card-info">Pelli Choopulu &#40;Original motion picture ....</p>
+                </div>
+            </div>
+
+            <h2 style="margin-bottom: 10px;">Your Top Songs</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./asserts/love.png">
+                    <p class="card-title">Chinuku Taake...</p>
+                    <p class="card-info">Pelli Choopulu &#40;Original motion picture ....</p>
+                </div>
+                <div class="card">
+                    <img src="./asserts/love 2.png">
+                    <p class="card-title">Yemito</p>
+                    <p class="card-info">Andala Rakshasi &#40;Original motion picture .... </p>
+                </div>
+                <div class="card">
+                    <img src="./asserts/love 3.png">
+                    <p class="card-title">Inthandham</p>
+                    <p class="card-info">Sita Ramam &#40;Original motion picture .... </p>
+                </div>
+                <div class="card">
+                    <img src="./asserts/love 4.png">
+                    <p class="card-title">Nenu Nuvvantu</p>
+                    <p class="card-info"> Orange &#40;Original motion picture .... </p>
+                </div>
+                <div class="card">
+                    <img src="./asserts/love 5.png">
+                    <p class="card-title">Chahun Main Ya Naa</p>
+                    <p class="card-info">Aashiqui 2 &#40;Original motion picture .... </p>
+                </div>
+            </div>
+
+            <h2 style="margin-bottom: 10px;">Featurd Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./asserts/card1img.jpeg">
+                    <p class="card-title">Top 50-Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right ...</p>
+                </div>
+                <div class="card">
+                    <img src="./asserts/card5img.jpeg">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right ...</p>
+                </div>
+                <div class="card">
+                    <img src="./asserts/card6img.jpeg">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your daily updates of the most played tracks right ...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <!-- Main content code ends -->
+
+        <!-- Music player code begins -->
+        <div class="music-player">
+            <div class="first">
+                <div class="card2">
+                    <img src="./asserts/love.png">
+                </div>
+                <div class="text-info">
+                    <h3>Chinuku Taake</h3>
+                    <h4>Amrithavarshini KC</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="second">
+                <div class="player-icons">
+                    <img src="./asserts/player_icon1.png" class="player-control-icons">
+                    <img src="./asserts/player_icon2.png" class="player-control-icons">
+                    <img src="./asserts/player_icon3.png" class="player-control-icons"
+                        style="opacity: 1; height: 2rem;">
+                    <img src="./asserts/player_icon4.png" class="player-control-icons">
+                    <img src="./asserts/player_icon5.png" class="player-control-icons">
+                </div>
+                <div class="song-player">
+                    <span>1:11</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span>4:51</span>
+                </div>
+            </div>
+            <div class="third">
+                <img src="./asserts/picture.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

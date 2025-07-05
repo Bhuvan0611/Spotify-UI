@@ -57,7 +57,7 @@ Just open index.html in any browser to view the app.
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 Inspired by Spotify Web UI
 

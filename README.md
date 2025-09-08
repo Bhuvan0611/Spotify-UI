@@ -1,6 +1,6 @@
 # 🎧 Spotify UI Clone
 
-A responsive **Spotify Web Player UI clone** built using **HTML5** and **CSS3**. This project replicates the core layout and styling of the official Spotify desktop web app, including a sidebar, song cards, featured charts, and a static music player.
+A **Spotify Web Player UI clone** built using **HTML5** and **CSS3**. This project replicates the core layout and styling of the official Spotify desktop web app, including a sidebar, song cards, featured charts, and a static music player.
 
 ---
 
